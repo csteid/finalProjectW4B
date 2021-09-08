@@ -44,14 +44,15 @@ nav a{
 }
   .text-block{
     position: absolute;
-    bottom: 300px;
-    right: 400px;
+    bottom: 350px;
+    right: 450px;
     font-size: 20px;
     background-color: rgb(107, 99, 99); opacity: 0.90;
     color: white;
     padding-left: 50px;
     padding-right: 50px;
     letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 figcaption{
     margin-left: 1000px;
@@ -61,14 +62,16 @@ figcaption{
 .definition{
     background-color: rgb(90, 85, 85);
     color: whitesmoke;
-    width: 25%;
+    width: 40%;
     display: inline-block;
     padding: 20px;
     margin-left: 300px;   
+    margin-top: 50px;
+    font-family: 'Rock Salt', cursive;
 }
 #graffiti { 
     border-radius: 50%;
-    margin-top: 70px;
+    margin-top:0;
     margin-left: 70px;  
 }
 
@@ -133,5 +136,6 @@ li{
     padding: 20px;
     background-color: rgb(90, 85, 85);
     color: whitesmoke;   
+
   }
   
