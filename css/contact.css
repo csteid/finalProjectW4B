@@ -1,0 +1,99 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+/* Logo and navbar */
+.logo{
+    background-color: #c1cac2;
+}
+.logoimage{   
+    margin-left: 45px;
+    margin-top: 45px;
+}     
+#name{
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 40px;
+}
+nav {
+   background-color: rgb(90, 85, 85);
+   height: 50px;  
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 0;  
+} 
+.navbar {
+    float: right;   
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 10px; 
+    margin-right: 175px;       
+}
+* {
+    box-sizing: border-box;
+  }
+  
+ /* Contact form */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #435B69;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #678ca1;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #c1cac2;
+    padding: 10px;
+  }
+/* Map */
+  #map{
+      margin-top: 10%;
+      margin-left: 20%;    
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   
+/* Footer */
+
+.myfooter {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(90, 85, 85);
+    color: whitesmoke;   
+  }
+
+.myfooter img{
+    padding: 0 20px; 
+}
