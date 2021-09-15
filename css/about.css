@@ -7,18 +7,15 @@ body{
 .logo{
     background-color: #c1cac2;
 }
-
 .logoimage{   
     margin-left: 45px;
     margin-top: 45px;
 }     
-
 #name{
     display: inline-block;
     margin-top: 0;
     margin-left: 40px;
 }
-
 nav {
    background-color: rgb(90, 85, 85);
    height: 50px;  
@@ -26,11 +23,9 @@ nav {
    position: sticky;
    top: 0;  
 } 
-
 .navbar {
     float: right;   
 }
-
 nav a{
     color: whitesmoke;
     text-decoration: none;
@@ -44,21 +39,17 @@ nav a{
 .guernica{
     width: 100%; 
 }
-
 .container {
     position: relative;
   }
-
  .tyler{
     position: absolute;
     bottom: 200px;
-    left: 100px;
+    left: 125px;
  } 
- 
- 
 .text-block {
-    bottom: 190px;
-    right: 100px;
+    bottom: 210px;
+    right: 125px;
     position: absolute;
     width: 40%;
     background-color: #435B69;
@@ -76,5 +67,4 @@ nav a{
   }
   .myfooter img{
     padding: 0 20px;
-  
 }

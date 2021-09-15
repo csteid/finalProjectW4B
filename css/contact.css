@@ -34,10 +34,21 @@ nav a{
     margin-top: 10px; 
     margin-right: 175px;       
 }
-* {
-    box-sizing: border-box;
+
+  .container {
+    border-radius: 5px;
+    background-color: #435B69;
+    color: whitesmoke;
+    padding: 10px;
   }
-  
+
+/* Map */
+ #map{
+      margin-top: 15%;
+      margin-left: 20%;  
+      border: 5px solid #555;  
+  } 
+
  /* Contact form */
   input[type=text], select, textarea {
     width: 100%;
@@ -47,7 +58,6 @@ nav a{
     margin-bottom: 16px;
     resize: vertical;
   }
-  
   input[type=submit] {
     background-color: #435B69;
     color: white;
@@ -55,30 +65,15 @@ nav a{
     border: none;
     cursor: pointer;
   }
-  
   input[type=submit]:hover {
     background-color: #678ca1;
   }
-  
-
-  .container {
-    border-radius: 5px;
-    background-color: #c1cac2;
-    padding: 10px;
-  }
-/* Map */
-  #map{
-      margin-top: 10%;
-      margin-left: 20%;    
-  }
-  
   .column {
     float: left;
-    width: 50%;
+    width: 45%;
     margin-top: 6px;
     padding: 20px;
   }
-  
   .row:after {
     content: "";
     display: table;
@@ -86,14 +81,12 @@ nav a{
   }
    
 /* Footer */
-
 .myfooter {
     text-align: center;
     padding: 20px;
     background-color: rgb(90, 85, 85);
     color: whitesmoke;   
-  }
-
+}
 .myfooter img{
-    padding: 0 20px; 
+    padding: 0 20px;    
 }
